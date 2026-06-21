@@ -96,7 +96,8 @@ These are the patterns that cost sufipunk a milestone to discover; do not regres
 | Feature | Status | Spec |
 |---|---|---|
 | Project bootstrap (M0) | done | [specs/m0-bootstrap/document.md](m0-bootstrap/document.md) |
-| Site shell — header, footer, theme tokens | planned | _tbd_ |
+| Visual foundation — palette, typography, header, footer (M1) | done (alcove pending photo) | [specs/m1-visual-foundation/document.md](m1-visual-foundation/document.md) |
+| Alcove arch component (M1.5 — pending green-door photo) | blocked | — |
 | Homepage / front door | planned | _tbd_ |
 | Archive index (49 posts, Concept A layout) | planned | _tbd_ |
 | Individual post page | planned | _tbd_ |
@@ -124,4 +125,5 @@ These are the patterns that cost sufipunk a milestone to discover; do not regres
 
 ## Milestone trail
 
-- **M0 — Project bootstrap.** Next.js 15 + Tailwind + shadcn scaffolded. M12 Vercel-clean config applied (no standalone, no distDir, no vercel.json, no BUILD_DIR). Source documents committed to `/source-docs`. Specs folder seeded. First clean `bun run build`. Tarball delivered. **Awaiting GitHub-live confirmation before any further work.**
+- **M0 — Project bootstrap.** Next.js 15 + Tailwind + shadcn scaffolded. M12 Vercel-clean config applied (no standalone, no distDir, no vercel.json, no BUILD_DIR). Source documents committed to `/source-docs`. Specs folder seeded. First clean `bun run build`. Tarball delivered. Confirmed live on GitHub at commit `c56711c` and auto-deployed by Vercel.
+- **M1 — Shared visual foundation.** Deeper / aged parchment palette (`parchment` `#E5DAC8`, `green` `#294539`, `bronze` `#976E2C` — bronze, not amber, deliberately, since this site is keyed to a green mosaic door, not gold). Cormorant Garamond + Amiri only (no EB Garamond). `SiteHeader` and `SiteFooter` in the site's voice with a sister-door link to sufipunk.co.uk in both. M1 preview homepage so the foundation is visible end-to-end. **Alcove arch component (Concept A) deliberately deferred to M1.5 — awaiting a real photograph of the green mosaic door**, since substituting the sufipunk gold-door silhouette or generating one with AI would silently change what the archive frame *is*. Browser-verified desktop (1440×900) and mobile (390×844). See [specs/m1-visual-foundation/document.md](m1-visual-foundation/document.md).

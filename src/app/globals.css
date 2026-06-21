@@ -2,60 +2,68 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
+ * Inspiring the Sufi — base palette and typography.
+ *
+ * One or two notches deeper / more aged than the sufipunk.co.uk
+ * sister site. Sufipunk is keyed to a gold mosaic door, so its accent
+ * is amber. ITS is keyed to a green mosaic door, so its accent is the
+ * older-copper / aged-bronze note, not leaf-gold. The body face is
+ * Cormorant Garamond (same as the display face) by deliberate design:
+ * the archive is meant to read as one piece, in one voice, on one
+ * old paper.
+ *
+ * Palette
+ *   parchment       #E5DAC8   aged paper — the page itself
+ *   parchment-deep  #D6C7AE   foxed paper — section grounds
+ *   ink             #2A1E12   warm sepia ink
+ *   ink-soft        #5A4836   muted sepia
+ *   green           #294539   deep mosaic green (heading + accent)
+ *   green-soft      #4F7263   moss green (rest state for links)
+ *   bronze          #976E2C   aged copper, not leaf-gold (rare accent)
+ *   bronze-soft     #C39A57
+ *   hairline        #B5A88E   visible against parchment, never harsh
+ *
+ * Typography
+ *   Display: Cormorant Garamond  (h1–h4, wordmark, big quotes)
+ *   Body:    Cormorant Garamond  (regular weight, body sizes — bookish)
+ *   Tail:    Amiri               (Arabic codepoints, e.g. ﷺ)
+ */
+
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 240 10% 3.9%;
-    --card: 0 0% 100%;
-    --card-foreground: 240 10% 3.9%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 3.9%;
-    --primary: 240 5.9% 10%;
-    --primary-foreground: 0 0% 98%;
-    --secondary: 240 4.8% 95.9%;
-    --secondary-foreground: 240 5.9% 10%;
-    --muted: 240 4.8% 95.9%;
-    --muted-foreground: 240 3.8% 46.1%;
-    --accent: 240 4.8% 95.9%;
-    --accent-foreground: 240 5.9% 10%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 240 5.9% 90%;
-    --input: 240 5.9% 90%;
-    --ring: 240 5.9% 10%;
-    --radius: 0.5rem;
-    --chart-1: 12 76% 61%;
-    --chart-2: 173 58% 39%;
-    --chart-3: 197 37% 24%;
-    --chart-4: 43 74% 66%;
-    --chart-5: 27 87% 67%;
-  }
+    /* ITS tokens, exposed as CSS vars and as Tailwind shadcn vars. */
+    --parchment: 36 32% 85%;          /* #E5DAC8 — aged paper */
+    --parchment-deep: 34 28% 76%;     /* #D6C7AE — foxed section ground */
+    --ink: 28 32% 12%;                /* #2A1E12 — warm sepia */
+    --ink-soft: 28 22% 28%;           /* #5A4836 */
+    --green: 153 27% 21%;             /* #294539 — deep mosaic green */
+    --green-soft: 153 18% 38%;        /* #4F7263 */
+    --bronze: 34 56% 38%;             /* #976E2C — aged copper */
+    --bronze-soft: 34 50% 56%;        /* #C39A57 */
+    --hairline: 34 22% 64%;           /* #B5A88E */
 
-  .dark {
-    --background: 240 10% 3.9%;
-    --foreground: 0 0% 98%;
-    --card: 240 10% 3.9%;
-    --card-foreground: 0 0% 98%;
-    --popover: 240 10% 3.9%;
-    --popover-foreground: 0 0% 98%;
-    --primary: 0 0% 98%;
-    --primary-foreground: 240 5.9% 10%;
-    --secondary: 240 3.7% 15.9%;
-    --secondary-foreground: 0 0% 98%;
-    --muted: 240 3.7% 15.9%;
-    --muted-foreground: 240 5% 64.9%;
-    --accent: 240 3.7% 15.9%;
-    --accent-foreground: 0 0% 98%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 240 3.7% 15.9%;
-    --input: 240 3.7% 15.9%;
-    --ring: 240 4.9% 83.9%;
-    --chart-1: 220 70% 50%;
-    --chart-2: 160 60% 45%;
-    --chart-3: 30 80% 55%;
-    --chart-4: 280 65% 60%;
-    --chart-5: 340 75% 55%;
+    /* shadcn aliases mapped to the ITS tokens */
+    --background: var(--parchment);
+    --foreground: var(--ink);
+    --card: var(--parchment);
+    --card-foreground: var(--ink);
+    --popover: var(--parchment);
+    --popover-foreground: var(--ink);
+    --primary: var(--green);
+    --primary-foreground: var(--parchment);
+    --secondary: var(--parchment-deep);
+    --secondary-foreground: var(--ink);
+    --muted: var(--parchment-deep);
+    --muted-foreground: var(--ink-soft);
+    --accent: var(--bronze);
+    --accent-foreground: var(--parchment);
+    --destructive: 0 60% 38%;
+    --destructive-foreground: var(--parchment);
+    --border: var(--hairline);
+    --input: var(--hairline);
+    --ring: var(--green);
+    --radius: 0.25rem;
   }
 }
 
@@ -63,7 +71,141 @@
   * {
     @apply border-border;
   }
-  body {
-    @apply bg-background text-foreground;
+  html {
+    color: hsl(var(--ink));
+    background: hsl(var(--parchment));
   }
+  body {
+    background: hsl(var(--parchment));
+    color: hsl(var(--ink));
+    /* Cormorant for body too — deliberate; see header comment. Amiri is
+       appended as a tail fallback so Arabic codepoints render. */
+    font-family: var(--font-cormorant), Georgia, "Times New Roman",
+      var(--font-amiri), serif;
+    font-feature-settings: "kern", "liga", "onum";
+    /* Cormorant body sizes need a touch more room than EB Garamond
+       to read comfortably — bumped from 1.0625 / 1.65 to 1.125 / 1.72. */
+    font-size: 1.125rem;
+    line-height: 1.72;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Display headings — Cormorant Garamond, bookish, generous tracking. */
+  h1, h2, h3, h4 {
+    font-family: var(--font-cormorant), Georgia, var(--font-amiri), serif;
+    color: hsl(var(--green));
+    font-weight: 500;
+    letter-spacing: -0.005em;
+    line-height: 1.15;
+  }
+  h1 { font-weight: 500; }
+
+  /* Quiet hairlines, never harsh borders */
+  hr {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(
+      to right,
+      transparent 0%,
+      hsl(var(--hairline)) 18%,
+      hsl(var(--hairline)) 82%,
+      transparent 100%
+    );
+  }
+
+  ::selection {
+    background: hsl(var(--bronze) / 0.30);
+    color: hsl(var(--ink));
+  }
+}
+
+@layer components {
+  /* Reading container — keeps prose at a calm measure on every screen. */
+  .prose-archive {
+    max-width: 36rem;
+    margin-inline: auto;
+    color: hsl(var(--ink));
+  }
+  .prose-archive p + p { margin-top: 1.1em; }
+  .prose-archive em { color: hsl(var(--green)); font-style: italic; }
+  .prose-archive a {
+    color: hsl(var(--green));
+    text-decoration-color: hsl(var(--bronze) / 0.65);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+    transition: color .2s ease;
+  }
+  .prose-archive a:hover { color: hsl(var(--bronze)); }
+
+  /* Restrained ornamental flower divider — reused from sufipunk for
+     the family-resemblance, but the rules between the glyph use the
+     ITS hairline so it sits a touch deeper on this page. */
+  .divider-flower {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: hsl(var(--bronze));
+    font-size: 1rem;
+    letter-spacing: 0.4em;
+  }
+  .divider-flower::before,
+  .divider-flower::after {
+    content: "";
+    height: 1px;
+    flex: 1 1 0;
+    max-width: 6rem;
+    background: linear-gradient(
+      to right,
+      transparent,
+      hsl(var(--hairline)),
+      transparent
+    );
+  }
+
+  /* Long-form archive post body — comes online in a later milestone,
+     defined here so the typography decisions are kept in one place. */
+  .archive-prose {
+    font-size: 1.125rem;
+    line-height: 1.78;
+    color: hsl(var(--ink));
+  }
+  .archive-prose > * + * { margin-top: 1.1em; }
+  .archive-prose p { margin-top: 1.05em; }
+  .archive-prose p:first-child { margin-top: 0; }
+  .archive-prose h2 {
+    margin-top: 2.4em;
+    font-size: 1.7rem;
+    line-height: 1.2;
+    color: hsl(var(--green));
+  }
+  .archive-prose h3 {
+    margin-top: 2em;
+    font-size: 1.35rem;
+    line-height: 1.25;
+    color: hsl(var(--green));
+  }
+  .archive-prose blockquote {
+    border-left: 2px solid hsl(var(--bronze) / 0.65);
+    padding: 0.25em 0 0.25em 1.25em;
+    margin: 1.6em 0;
+    color: hsl(var(--ink-soft));
+    font-style: italic;
+  }
+  .archive-prose em { color: hsl(var(--green)); }
+  .archive-prose a {
+    color: hsl(var(--green));
+    text-decoration-color: hsl(var(--bronze) / 0.65);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+  }
+  .archive-prose a:hover { color: hsl(var(--bronze)); }
+  .archive-prose ul,
+  .archive-prose ol {
+    margin-top: 1.05em;
+    padding-left: 1.4em;
+  }
+  .archive-prose li { margin-top: 0.4em; }
 }
