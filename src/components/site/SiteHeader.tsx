@@ -1,18 +1,20 @@
 import Link from "next/link";
+import { MosaicDoorIcon } from "@/components/site/Ornaments";
 
 /**
  * SiteHeader — quiet, no clutter.
  *
- * M1 scope: wordmark + a single sister-door link back to sufipunk.co.uk.
- * No archive / about / play-with-me nav yet — those routes don't exist
- * on this site until later milestones, and stub-linking to non-existent
- * pages would land visitors on a 404 with no warning.
+ * The mosaic-door icon (M1.5) sits immediately to the left of the
+ * "Inspiring the Sufi" wordmark — small, roughly text-height,
+ * green-on-parchment. Its silhouette is traced from the same green
+ * mosaic door photograph as the Alcove component, so the door icon
+ * here and the alcove frame around each archive entry are the same
+ * arch in two sizes. Anyone reading both code and content will see
+ * the relationship.
  *
- * The mosaic-door icon (left of the wordmark, mirroring the pattern on
- * the sufipunk sister site) is deliberately not present yet: it must be
- * traced from a real photo of the *green* mosaic door, not the gold one,
- * and that photo hasn't arrived in the project. The icon will land in
- * a follow-up milestone the moment the photo does.
+ * Sister-door link to sufipunk.co.uk lives in the right-hand slot.
+ * No archive / about / play-with-me links yet — those routes don't
+ * exist in M1.5, and stub-linking would silently 404 visitors.
  */
 export function SiteHeader() {
   return (
@@ -22,6 +24,7 @@ export function SiteHeader() {
           href="/"
           className="inline-flex items-center font-display text-2xl tracking-tight text-green sm:text-[1.75rem]"
         >
+          <MosaicDoorIcon className="mr-2.5 h-7 w-auto sm:h-8" />
           <span>Inspiring the Sufi</span>
         </Link>
         <nav

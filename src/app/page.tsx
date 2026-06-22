@@ -1,17 +1,21 @@
 import { SiteHeader } from "@/components/site/SiteHeader";
 import { SiteFooter } from "@/components/site/SiteFooter";
+import { Alcove } from "@/components/site/Ornaments";
 
 /**
- * M1 — visual foundation preview.
+ * M1 / M1.5 — visual foundation preview.
  *
  * This page is *not* the real homepage. It is a deliberate placeholder
- * that lets us see the palette, typography, header, and footer working
- * end-to-end in a live preview, without committing any actual page
- * content. The real homepage lands in a later milestone, after the
- * green-door mosaic-arch alcove component is in place and the archive
- * loader is wired up.
+ * that lets us see the palette, typography, header, footer, and the
+ * traced Alcove arch working end-to-end in a live preview, without
+ * committing any actual page content. The real homepage lands in a
+ * later milestone, after the archive loader is wired up.
+ *
+ * The Alcove demo uses generic placeholder text (Lorem-style), not
+ * pretend archive entries — the brief is explicit that no real Archive,
+ * About, or Play-with-me content lands until M2+.
  */
-export default function M1PreviewPage() {
+export default function FoundationPreviewPage() {
   return (
     <>
       <SiteHeader />
@@ -34,10 +38,7 @@ export default function M1PreviewPage() {
           <p className="mt-10">
             This is the visual foundation only — the deeper, aged parchment
             register that distinguishes this archive from its sister site,
-            <a
-              href="https://sufipunk.co.uk"
-              className="ml-1"
-            >
+            <a href="https://sufipunk.co.uk" className="ml-1">
               sufipunk.co.uk
             </a>
             . The accent here is older copper, not leaf-gold; the body face
@@ -46,15 +47,53 @@ export default function M1PreviewPage() {
           </p>
 
           <p>
-            The pointed-arch <em>alcove</em> that each archive entry will
-            sit inside is being held back until a real photograph of the
-            green mosaic door arrives — it is the silhouette traced from
-            that photo, not an approximation of it, that will give the
-            archive its true frame. Until then, the voice is here, the
-            palette is here, and the doors are here.
+            The pointed-arch <em>alcove</em> below is the frame each archive
+            entry will eventually sit inside. Its silhouette is traced from
+            a real photograph of the green mosaic door — not the gold one
+            used on the sister site, and not an AI approximation. The same
+            silhouette also carries the small door icon next to the
+            wordmark up in the header.
           </p>
+        </div>
 
-          <div className="divider-flower mt-12" aria-hidden="true">
+        {/* M1.5 — Alcove demonstration. Generic placeholder text only;
+            no pretend archive entry content. */}
+        <div className="mt-16 sm:mt-20">
+          <p className="text-center font-display text-xs uppercase tracking-[0.28em] text-ink-soft">
+            Alcove — frame demo
+          </p>
+          <div className="mt-4 grid gap-8 sm:grid-cols-2 sm:gap-10">
+            <Alcove tone="default">
+              <p className="text-center font-display text-xs uppercase tracking-[0.24em] text-bronze">
+                No. ___
+              </p>
+              <p className="mt-2 text-center font-display text-2xl italic text-green">
+                Some Name will live here
+              </p>
+              <p className="mt-3 text-center font-serif text-sm text-ink-soft">
+                A song, an artist, a place. Each archive entry sits inside
+                an alcove like this one — the arch is the same in every
+                size, so the archive reads as a continuous field of doors.
+              </p>
+            </Alcove>
+            <Alcove tone="deep">
+              <p className="text-center font-display text-xs uppercase tracking-[0.24em] text-bronze">
+                No. ___
+              </p>
+              <p className="mt-2 text-center font-display text-2xl italic text-green">
+                And another, side by side
+              </p>
+              <p className="mt-3 text-center font-serif text-sm text-ink-soft">
+                The deeper tone variant — used sparingly for feature
+                entries or for moments where the page needs a slightly
+                more present niche.
+              </p>
+            </Alcove>
+          </div>
+        </div>
+
+        <div className="prose-archive">
+          <div className="divider-flower mt-16" aria-hidden="true">
             ❁
           </div>
 
