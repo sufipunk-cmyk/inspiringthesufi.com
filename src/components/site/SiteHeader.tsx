@@ -37,6 +37,12 @@ export function SiteHeader() {
           >
             The Archive
           </Link>
+          <Link
+            href="/about"
+            className="text-green transition-colors hover:text-bronze"
+          >
+            About
+          </Link>
           <a
             href="https://sufipunk.co.uk"
             className="inline-flex items-center gap-1.5 text-green transition-colors hover:text-bronze"

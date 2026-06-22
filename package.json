@@ -11,6 +11,7 @@
     "format": "bunx biome format --write",
     "sync:redirects": "bun run scripts/sync-redirects.ts",
     "check:archive": "bun run scripts/check-archive.ts",
+    "check:about": "bun run scripts/check-about.ts",
     "migrate:wxr": "bun run scripts/migrate-from-wxr.ts"
   },
   "dependencies": {
