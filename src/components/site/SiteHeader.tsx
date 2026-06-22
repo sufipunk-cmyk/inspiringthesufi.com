@@ -43,6 +43,12 @@ export function SiteHeader() {
           >
             About
           </Link>
+          <Link
+            href="/play-with-me"
+            className="text-green transition-colors hover:text-bronze"
+          >
+            Play with me
+          </Link>
           <a
             href="https://sufipunk.co.uk"
             className="inline-flex items-center gap-1.5 text-green transition-colors hover:text-bronze"

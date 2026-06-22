@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 // while the page is in approval-pending state.
 const SHOW_PULL_QUOTE = true;
 const SHOW_COME_SIT_WITH_ME = true;
-const COME_SIT_WITH_ME_LINKS_TO_PLAY = false; // M4 not live yet — leave as italic
+const COME_SIT_WITH_ME_LINKS_TO_PLAY = true; // M4 lives at /play-with-me
 
 // AWAITING NAZ'S APPROVAL — Q1 page heading.
 const ABOUT_HEADING_LINE_1 = "Two definitions,";

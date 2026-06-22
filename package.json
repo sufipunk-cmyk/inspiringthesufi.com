@@ -12,6 +12,7 @@
     "sync:redirects": "bun run scripts/sync-redirects.ts",
     "check:archive": "bun run scripts/check-archive.ts",
     "check:about": "bun run scripts/check-about.ts",
+    "check:play-with-me": "bun run scripts/check-play-with-me.ts",
     "migrate:wxr": "bun run scripts/migrate-from-wxr.ts"
   },
   "dependencies": {
