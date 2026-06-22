@@ -8,8 +8,9 @@
  *   1. ABOUT_PARAGRAPHS must have exactly eight entries.
  *   2. Every paragraph body must be non-empty and at least 80 chars
  *      (catches accidental truncation or a paragraph being deleted).
- *   3. src/app/about/page.tsx still carrying any AWAITING NAZ'S
- *      APPROVAL markers is reported as a warning until cleared.
+ *   3. Any stray AWAITING NAZ'S APPROVAL markers in
+ *      src/app/about/page.tsx are flagged. Heading + kicker were
+ *      approved post-M4; the marker should NOT be present.
  *
  * Exit code 0 unless the structural assertion (#1) fails — that is
  * a real data error and should fail loudly.
@@ -62,13 +63,13 @@ if (actual.join(",") !== expected.join(",")) {
   errors += 1;
 }
 
-// Markers in the page source
+// Approval-marker check (should be zero — heading + kicker confirmed post-M4).
 const pageSrc = fs.readFileSync(PAGE_PATH, "utf8");
 const markerCount = (pageSrc.match(/AWAITING NAZ'S APPROVAL/g) ?? []).length;
-console.log(`  Approval markers     : ${markerCount} (header strings + kicker)`);
+console.log(`  Approval markers     : ${markerCount}   (expected: 0)`);
 if (markerCount > 0) {
   console.log(
-    `\n  ⚠️  src/app/about/page.tsx still carries ${markerCount} AWAITING NAZ'S APPROVAL marker(s) — review heading, kicker, and (optionally) the pull-quote / "Come sit with me" toggles before launch.`,
+    `\n  ⚠️  src/app/about/page.tsx carries ${markerCount} stray AWAITING NAZ'S APPROVAL marker(s) — should be zero (heading + kicker were approved post-M4).`,
   );
   warnings += 1;
 }

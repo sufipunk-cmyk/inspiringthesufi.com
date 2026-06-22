@@ -11,8 +11,9 @@
  *      being silently shortened.
  *   4. Closing copy strings end as Naz wrote them.
  *   5. Field-label map has the five visible-field keys.
- *   6. Reports AWAITING NAZ'S APPROVAL marker count across the page +
- *      form sources.
+ *   6. Any stray AWAITING NAZ'S APPROVAL markers in page + form
+ *      sources are flagged. The five M4 markers were cleared post-M4;
+ *      count should be zero.
  *   7. Reports whether FORMSPREE_ENDPOINT is set in this environment
  *      (informational; absence is normal in dev).
  *
@@ -125,18 +126,18 @@ if (missingKeys.length > 0 || extraKeys.length > 0) {
   errors += 1;
 }
 
-// Approval markers across page + form sources
+// Approval markers — should be zero (all five cleared post-M4)
 const pageSrc = fs.readFileSync(PAGE_PATH, "utf8");
 const formSrc = fs.readFileSync(FORM_PATH, "utf8");
 const pageMarkers = (pageSrc.match(/AWAITING NAZ'S APPROVAL/g) ?? []).length;
 const formMarkers = (formSrc.match(/AWAITING NAZ'S APPROVAL/g) ?? []).length;
 const totalMarkers = pageMarkers + formMarkers;
 console.log(
-  `  Approval markers     : ${totalMarkers} (page: ${pageMarkers}, form: ${formMarkers})`,
+  `  Approval markers     : ${totalMarkers}   (expected: 0)`,
 );
 if (totalMarkers > 0) {
   console.log(
-    `\n  ⚠️  ${totalMarkers} AWAITING NAZ'S APPROVAL marker(s) across page + form. Review before launch (button label, toggle visual, email placeholder, success-state link, page heading rendering).`,
+    `\n  ⚠️  ${totalMarkers} stray AWAITING NAZ'S APPROVAL marker(s) across page + form — should be zero (all five cleared post-M4).`,
   );
   warnings += 1;
 }

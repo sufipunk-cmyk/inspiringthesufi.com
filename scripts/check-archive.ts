@@ -4,10 +4,9 @@
  * Build-time lint for the Archive content. Surfaces things that are
  * intentionally pending Naz's review, so they cannot ship silently:
  *
- *   1. The Archive standfirst paragraph carries a literal
- *      "AWAITING NAZ'S APPROVAL" marker in src/app/archive/page.tsx.
- *      That marker MUST be present until Naz approves the wording;
- *      this script confirms it is still there.
+ *   1. Any stray "AWAITING NAZ'S APPROVAL" marker in
+ *      src/app/archive/page.tsx is flagged. The standfirst was approved
+ *      post-M4; the marker should NOT be present.
  *
  *   2. Any post whose frontmatter has narrativeReviewNeeded = true
  *      (per the master brief, Posts 21 and 38) is listed.
@@ -46,20 +45,13 @@ type Issue = { level: "warn" | "info"; message: string };
 
 const issues: Issue[] = [];
 
-// 1. Standfirst-approval marker
+// 1. Approval-marker check (should be zero — standfirst confirmed post-M4).
 const indexSrc = fs.readFileSync(INDEX_PAGE, "utf8");
-const hasMarker = indexSrc.includes("AWAITING NAZ'S APPROVAL");
-if (hasMarker) {
+const markerCount = (indexSrc.match(/AWAITING NAZ'S APPROVAL/g) ?? []).length;
+if (markerCount > 0) {
   issues.push({
     level: "warn",
-    message:
-      "Archive standfirst paragraph still flagged AWAITING NAZ'S APPROVAL in src/app/archive/page.tsx — review and confirm wording before launch.",
-  });
-} else {
-  issues.push({
-    level: "info",
-    message:
-      "Standfirst approval marker has been removed from src/app/archive/page.tsx — assuming Naz approved the wording.",
+    message: `Found ${markerCount} stray AWAITING NAZ'S APPROVAL marker(s) in src/app/archive/page.tsx — should be zero (standfirst was approved post-M4).`,
   });
 }
 

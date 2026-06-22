@@ -1,106 +1,98 @@
+/**
+ * `/` — the homepage. The site's front door.
+ *
+ * Three pieces only, in order: wordmark hero → first two paragraphs of
+ * the About page (pulled live from `ABOUT_PARAGRAPHS.slice(0, 2)`, the
+ * single source of truth — never copy-paste here) → the three Wander
+ * entry points presented as one inline sentence with ♦ separators,
+ * using the same component the Archive page uses.
+ *
+ * Deliberately no alcove around the title: the alcove vocabulary is
+ * reserved for the archive's narrow index cards (M3 Q5, reinforced by
+ * M4). The wordmark in Cormorant Garamond on parchment, with a hairline
+ * `❁` divider beneath, does the work an alcove would have done without
+ * colonising the archive's own frame.
+ */
+
+import type { Metadata } from "next";
+import Link from "next/link";
+
 import { SiteHeader } from "@/components/site/SiteHeader";
 import { SiteFooter } from "@/components/site/SiteFooter";
-import { Alcove } from "@/components/site/Ornaments";
+import { ArchiveIndexWanderLine } from "@/components/archive/ArchiveIndexWanderLine";
+import { ABOUT_PARAGRAPHS } from "@/lib/about/text";
 
-/**
- * M1 / M1.5 — visual foundation preview.
- *
- * This page is *not* the real homepage. It is a deliberate placeholder
- * that lets us see the palette, typography, header, footer, and the
- * traced Alcove arch working end-to-end in a live preview, without
- * committing any actual page content. The real homepage lands in a
- * later milestone, after the archive loader is wired up.
- *
- * The Alcove demo uses generic placeholder text (Lorem-style), not
- * pretend archive entries — the brief is explicit that no real Archive,
- * About, or Play-with-me content lands until M2+.
- */
-export default function FoundationPreviewPage() {
+export const metadata: Metadata = {
+  title: "Inspiring the Sufi",
+  description:
+    "Forty-nine names. Forty-nine songs. Each of the 99 Names of Allah set next to a piece of secular music — a digital archive of a finished body of work.",
+};
+
+// AWAITING NAZ'S APPROVAL — Q1: italic tagline beneath the wordmark.
+// Picks up Naz's own word "attention" from About paragraph 5
+// ("…attention could become a form of devotion"). Keep, replace, or
+// remove altogether — wordmark-only hero is also a clean option.
+const HOME_TAGLINE = "An archive of attention.";
+
+// AWAITING NAZ'S APPROVAL — Q2: overline. Drafted as a single uppercase
+// kicker over the wordmark. Approve, shorten, or remove.
+const HOME_OVERLINE = "Inspiring the Sufi · Archive";
+
+const EXCERPT = ABOUT_PARAGRAPHS.slice(0, 2);
+
+export default function HomePage() {
   return (
     <>
       <SiteHeader />
-      <main className="container py-20 sm:py-28">
-        <div className="prose-archive">
-          <p className="font-display text-sm uppercase tracking-[0.32em] text-bronze">
-            The Archive
+      <main className="container py-16 sm:py-20">
+        {/* Wordmark hero */}
+        <header className="mx-auto max-w-2xl text-center">
+          <p className="font-display text-xs uppercase tracking-[0.32em] text-bronze">
+            {HOME_OVERLINE}
           </p>
-          <h1 className="mt-3 font-display text-5xl leading-tight text-green sm:text-6xl">
-            Inspiring the Sufi
+          <h1 className="mt-4 font-display text-5xl leading-tight text-green sm:text-6xl">
+            Forty-nine names.
+            <span className="block">Forty-nine songs.</span>
           </h1>
-          <p className="mt-4 font-display text-xl italic text-ink-soft sm:text-2xl">
-            Forty-nine names. Forty-nine songs.
+          <p className="mt-6 font-display text-xl italic text-ink-soft sm:text-2xl">
+            {HOME_TAGLINE}
           </p>
+        </header>
 
-          <div className="divider-flower mt-10" aria-hidden="true">
-            ❁
-          </div>
-
-          <p className="mt-10">
-            This is the visual foundation only — the deeper, aged parchment
-            register that distinguishes this archive from its sister site,
-            <a href="https://sufipunk.co.uk" className="ml-1">
-              sufipunk.co.uk
-            </a>
-            . The accent here is older copper, not leaf-gold; the body face
-            is Cormorant Garamond throughout, by deliberate design, so that
-            every entry reads as one piece, in one voice, on one old paper.
-          </p>
-
-          <p>
-            The pointed-arch <em>alcove</em> below is the frame each archive
-            entry will eventually sit inside. Its silhouette is traced from
-            a real photograph of the green mosaic door — not the gold one
-            used on the sister site, and not an AI approximation. The same
-            silhouette also carries the small door icon next to the
-            wordmark up in the header.
-          </p>
+        <div className="divider-flower mt-12" aria-hidden="true">
+          ❁
         </div>
 
-        {/* M1.5 — Alcove demonstration. Generic placeholder text only;
-            no pretend archive entry content. */}
-        <div className="mt-16 sm:mt-20">
-          <p className="text-center font-display text-xs uppercase tracking-[0.28em] text-ink-soft">
-            Alcove — frame demo
+        {/* About excerpt — first two paragraphs, no edits, no
+            transforms. ABOUT_PARAGRAPHS is the single source of truth;
+            edits to those constants update the homepage and /about
+            together in the same commit. */}
+        <article className="mx-auto mt-12 max-w-[38rem] font-serif text-[1.1rem] leading-[1.8] text-ink sm:text-[1.15rem]">
+          {EXCERPT.map((p, i) => (
+            <p key={p.index} className={i === 0 ? "" : "mt-6"}>
+              {p.body}
+            </p>
+          ))}
+
+          <p className="mt-8 text-center">
+            <Link
+              href="/about"
+              className="font-display text-base italic text-ink-soft underline decoration-bronze/55 underline-offset-4 transition-colors hover:text-bronze sm:text-lg"
+            >
+              Read on{" "}
+              <span aria-hidden="true">→</span>
+            </Link>
           </p>
-          <div className="mt-4 grid gap-8 sm:grid-cols-2 sm:gap-10">
-            <Alcove tone="default">
-              <p className="text-center font-display text-xs uppercase tracking-[0.24em] text-bronze">
-                No. ___
-              </p>
-              <p className="mt-2 text-center font-display text-2xl italic text-green">
-                Some Name will live here
-              </p>
-              <p className="mt-3 text-center font-serif text-sm text-ink-soft">
-                A song, an artist, a place. Each archive entry sits inside
-                an alcove like this one — the arch is the same in every
-                size, so the archive reads as a continuous field of doors.
-              </p>
-            </Alcove>
-            <Alcove tone="deep">
-              <p className="text-center font-display text-xs uppercase tracking-[0.24em] text-bronze">
-                No. ___
-              </p>
-              <p className="mt-2 text-center font-display text-2xl italic text-green">
-                And another, side by side
-              </p>
-              <p className="mt-3 text-center font-serif text-sm text-ink-soft">
-                The deeper tone variant — used sparingly for feature
-                entries or for moments where the page needs a slightly
-                more present niche.
-              </p>
-            </Alcove>
-          </div>
+        </article>
+
+        <div className="divider-flower mt-14" aria-hidden="true">
+          ❁
         </div>
 
-        <div className="prose-archive">
-          <div className="divider-flower mt-16" aria-hidden="true">
-            ❁
-          </div>
-
-          <p className="mt-12 font-serif text-sm italic text-ink-soft">
-            The archive itself, the <em>About</em>, and the <em>Play with me</em> page
-            arrive in the milestones to come.
-          </p>
+        {/* Wander entry points — same component as /archive, with no
+            `active` prop so all three modes render as live links. */}
+        <div className="mt-10">
+          <ArchiveIndexWanderLine />
         </div>
       </main>
       <SiteFooter />

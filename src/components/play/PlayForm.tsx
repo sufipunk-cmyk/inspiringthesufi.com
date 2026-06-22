@@ -13,10 +13,8 @@
  * isn't applicable, and so the value is structurally absent from form
  * state when wantsResponse !== "yes".
  *
- * AWAITING NAZ'S APPROVAL markers are placed on the agent-drafted bits
- * (button label, success-state link wording, email placeholder, toggle
- * visual, page heading rendering) so `bun run check:play-with-me` can
- * report them.
+ * Submit-button label, email placeholder, success-state link, and the
+ * Yes/No toggle visual were all confirmed by Naz post-M4.
  */
 
 import { useState, type FormEvent, type ReactNode } from "react";
@@ -70,11 +68,9 @@ const EMPTY: PlaySubmission = {
   _gotcha: "",
 };
 
-// AWAITING NAZ'S APPROVAL — submit-button label.
+// Confirmed by Naz post-M4.
 const SUBMIT_LABEL = "Send this to Naz";
-// AWAITING NAZ'S APPROVAL — email field placeholder.
 const EMAIL_PLACEHOLDER = "you@example.com";
-// AWAITING NAZ'S APPROVAL — success-state "send another" link wording.
 const SEND_ANOTHER_LABEL = "Send another";
 
 type FormState =
@@ -254,7 +250,6 @@ export function PlayForm() {
           <legend className="block font-serif text-base italic text-ink-soft">
             {PLAY_FIELD_LABELS.wantsResponse}
           </legend>
-          {/* AWAITING NAZ'S APPROVAL — Yes/No toggle visual. */}
           <div className="mt-3 inline-flex gap-2">
             <ToggleButton
               active={data.wantsResponse === "no"}

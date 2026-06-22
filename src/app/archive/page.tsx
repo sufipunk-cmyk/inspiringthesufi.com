@@ -22,12 +22,9 @@ export const metadata: Metadata = {
 
 type SearchParams = { wander?: string | string[] };
 
-// AWAITING NAZ'S APPROVAL — Q3 standfirst draft.
-// This paragraph is the M2 implementation's draft of the page-header
-// standfirst. Per Naz's Q3 decision it must be reviewed and either
-// confirmed or rewritten before launch. The lint script
-// `bun run check:archive` flags this string until cleared.
-const ARCHIVE_STANDFIRST_DRAFT = `Forty-nine entries, written between 2015 and 2017, each pairing one of the 99 Names of Allah with a piece of secular music — a song someone already loved, sat next to a Name and a meaning, to see where they touched. The archive is finished; this is its quiet home.`;
+// Standfirst — confirmed by Naz (post-M4). Lives here as a single
+// const so future edits happen in one place.
+const ARCHIVE_STANDFIRST = `Forty-nine entries, written between 2015 and 2017, each pairing one of the 99 Names of Allah with a piece of secular music — a song someone already loved, sat next to a Name and a meaning, to see where they touched. The archive is finished; this is its quiet home.`;
 
 export default async function ArchiveIndexPage({
   searchParams,
@@ -53,10 +50,7 @@ export default async function ArchiveIndexPage({
             <span className="block">Forty-nine songs.</span>
           </h1>
           <p className="mt-8 font-serif text-[1.1rem] leading-[1.7] text-ink sm:text-[1.15rem]">
-            {ARCHIVE_STANDFIRST_DRAFT}
-          </p>
-          <p className="mt-3 font-serif text-xs italic text-ink-soft/70">
-            (Standfirst draft — awaiting Naz&apos;s approval.)
+            {ARCHIVE_STANDFIRST}
           </p>
         </header>
 

@@ -3,11 +3,8 @@
  *
  * Server component renders the verbatim Physicians-of-the-Heart text
  * and the closing copy; the active form is the <PlayForm/> client
- * component.
- *
- * Page heading rendering and a few visual choices around the form are
- * agent decisions that carry AWAITING NAZ'S APPROVAL markers — see
- * specs/m4-play-with-me/document.md §10.
+ * component. Page-heading rendering, button label, toggle visual, email
+ * placeholder, and success-state link are all confirmed by Naz post-M4.
  */
 
 import type { Metadata } from "next";
@@ -30,8 +27,6 @@ export const metadata: Metadata = {
   description:
     "There are as many ways to turn toward the Divine as there are people seeking. What's yours? A native, quiet form for sharing your own way in.",
 };
-
-// AWAITING NAZ'S APPROVAL — page heading rendering (single italic Cormorant block).
 
 export default function PlayWithMePage() {
   return (

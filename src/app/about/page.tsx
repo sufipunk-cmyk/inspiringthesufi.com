@@ -14,10 +14,9 @@
  * with me" invitation pointing at /play-with-me (which lands in M4 —
  * until then it renders as plain italic, not a clickable link).
  *
- * Three header strings (overline, h1, kicker) and the pull-quote are
- * flagged with AWAITING NAZ'S APPROVAL markers — the agent drafted the
- * page heading, so the eight paragraphs themselves stay verbatim while
- * the page-level chrome around them is reviewable.
+ * Heading and kicker confirmed by Naz post-M4. Pull-quote stays on,
+ * heading remains plain typography (no alcove wrapper — alcove is the
+ * archive's vocabulary). The eight body paragraphs stay verbatim.
  */
 
 import type { Metadata } from "next";
@@ -32,17 +31,15 @@ export const metadata: Metadata = {
     "Low-demand faith and Spiritual Parallel Play, in Naz's own words.",
 };
 
-// Toggles, kept at module scope so they're trivially audited / flipped
-// while the page is in approval-pending state.
+// Toggles. Pull-quote stays on (Naz's call). Come-sit-with-me links to
+// /play-with-me (live since M4).
 const SHOW_PULL_QUOTE = true;
 const SHOW_COME_SIT_WITH_ME = true;
-const COME_SIT_WITH_ME_LINKS_TO_PLAY = true; // M4 lives at /play-with-me
+const COME_SIT_WITH_ME_LINKS_TO_PLAY = true;
 
-// AWAITING NAZ'S APPROVAL — Q1 page heading.
+// Heading + kicker — confirmed by Naz post-M4.
 const ABOUT_HEADING_LINE_1 = "Two definitions,";
 const ABOUT_HEADING_LINE_2 = "and where they began.";
-
-// AWAITING NAZ'S APPROVAL — Q2 italic kicker.
 const ABOUT_KICKER = "Low-demand faith. Spiritual Parallel Play.";
 
 export default function AboutPage() {
@@ -61,10 +58,6 @@ export default function AboutPage() {
           </h1>
           <p className="mt-6 font-serif text-[1.05rem] italic text-ink-soft sm:text-[1.15rem]">
             {ABOUT_KICKER}
-          </p>
-          <p className="mt-3 font-serif text-xs italic text-ink-soft/70">
-            (Page heading and kicker — awaiting Naz&apos;s approval. The eight
-            paragraphs below are verbatim.)
           </p>
         </header>
 
@@ -95,8 +88,8 @@ export default function AboutPage() {
                   Come sit with me.
                 </a>
               ) : (
-                // Plain italic until M4 lands — clicking nowhere is the right
-                // behaviour while /play-with-me does not yet exist.
+                // Fallback (plain italic) — kept for the rare case where the
+                // toggle is flipped off; in normal operation we link.
                 <span>Come sit with me.</span>
               )}
             </p>
