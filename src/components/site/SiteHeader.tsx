@@ -31,6 +31,12 @@ export function SiteHeader() {
           aria-label="Primary"
           className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 font-serif text-sm text-ink-soft sm:text-[0.95rem]"
         >
+          <Link
+            href="/archive"
+            className="text-green transition-colors hover:text-bronze"
+          >
+            The Archive
+          </Link>
           <a
             href="https://sufipunk.co.uk"
             className="inline-flex items-center gap-1.5 text-green transition-colors hover:text-bronze"

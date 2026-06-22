@@ -1,25 +1,31 @@
+// next.config.js
+//
+// We *require* the redirect array out of the archive lib. This is
+// JavaScript, not TypeScript, but Next.js bundles redirects() during
+// build and `require` of a `.ts` source from `.js` doesn't work in
+// Next 15 — so the redirect map is also exported as a generated
+// JSON file at `src/lib/archive/redirects.generated.json` (committed,
+// kept in sync by `bun run sync:redirects`). The TS source is the
+// single source of truth.
+const archiveRedirects = require("./src/lib/archive/redirects.generated.json");
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Use Next.js defaults for both `output` and `distDir`. We do not
-  // set `output: 'standalone'` here: that mode produces a self-contained
-  // Node.js server bundle for self-hosting (e.g. Docker), not a folder
-  // Vercel can serve as static output. Combined with a `distDir`
-  // override and a `vercel.json` pointing at that override, every
-  // route 404'd in production. Removed in milestone 12.
-  // Enable CORS for Design Mode to load resources cross-origin (dev only)
-  // Note: Do NOT set allowedDevOrigins - the default allows all origins in dev mode
+  async redirects() {
+    return archiveRedirects;
+  },
   async headers() {
-    // Only add permissive CORS headers in development
-    if (process.env.NODE_ENV !== 'development') {
-      return [];
-    }
+    if (process.env.NODE_ENV !== "development") return [];
     return [
       {
-        source: '/:path*',
+        source: "/:path*",
         headers: [
-          { key: 'Access-Control-Allow-Origin', value: '*' },
-          { key: 'Access-Control-Allow-Methods', value: 'GET, POST, PUT, DELETE, OPTIONS' },
-          { key: 'Access-Control-Allow-Headers', value: '*' },
+          { key: "Access-Control-Allow-Origin", value: "*" },
+          {
+            key: "Access-Control-Allow-Methods",
+            value: "GET, POST, PUT, DELETE, OPTIONS",
+          },
+          { key: "Access-Control-Allow-Headers", value: "*" },
         ],
       },
     ];

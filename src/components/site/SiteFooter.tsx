@@ -6,10 +6,9 @@ import Link from "next/link";
  * the two sites are siblings, not parent/child, and the door metaphor
  * is the visual lingua franca that runs through both.
  *
- * M1 scope: structural footer in the site's voice, no archive/about/
- * play-with-me targets yet (those routes don't exist until later
- * milestones). The site-internal column is intentionally empty in M1
- * and will fill in as routes come online.
+ * M2 scope: the Archive column now points at /archive and surfaces
+ * the three Wander modes. About + Play with me will fill in their
+ * own column entries as later milestones come online.
  */
 export function SiteFooter() {
   return (
@@ -29,8 +28,31 @@ export function SiteFooter() {
             <h4 className="font-display text-sm uppercase tracking-[0.2em] text-ink-soft">
               The Archive
             </h4>
-            <ul className="mt-3 space-y-1.5 font-serif text-[0.95rem] text-ink-soft">
-              <li className="italic opacity-70">Routes arrive in the next milestones.</li>
+            <ul className="mt-3 space-y-1.5 font-serif text-[0.95rem]">
+              <li>
+                <Link
+                  href="/archive"
+                  className="text-green hover:text-bronze"
+                >
+                  All forty-nine
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/archive?wander=names"
+                  className="text-green hover:text-bronze"
+                >
+                  By the names of Allah
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/archive?wander=music"
+                  className="text-green hover:text-bronze"
+                >
+                  By the music
+                </Link>
+              </li>
             </ul>
           </div>
 
