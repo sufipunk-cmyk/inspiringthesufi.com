@@ -17,6 +17,8 @@ import { SiteHeader } from "@/components/site/SiteHeader";
 import { loadAllArchivePosts, loadArchivePost } from "@/lib/archive/loader";
 import { isWanderMode } from "@/lib/archive/wander";
 import type { WanderMode } from "@/lib/archive/types";
+import { articleJsonLd } from "@/lib/seo/jsonld";
+import { postOgImagePath } from "@/lib/seo/post-og";
 
 type Params = { slug: string };
 type SearchParams = { from?: string | string[] };
@@ -39,9 +41,32 @@ export async function generateMetadata({
   ]
     .filter(Boolean)
     .join(" — ");
+  const title = `No. ${post.postNumber} · ${post.name.english} — Inspiring the Sufi`;
+  const ogImage = postOgImagePath(post);
+  const url = `/archive/${post.slug}`;
   return {
-    title: `No. ${post.postNumber} · ${post.name.english} — Inspiring the Sufi`,
+    title,
     description,
+    openGraph: {
+      title,
+      description,
+      url,
+      type: "article",
+      publishedTime: post.publishedAt,
+      authors: ["Sufi Punk"],
+      // Width/height intentionally omitted — heroes vary in dimension
+      // post-to-post; OG consumers will infer from the file itself.
+      images: [{ url: ogImage, alt: `${post.name.english} — ${post.name.meaning}` }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [ogImage],
+    },
+    alternates: {
+      canonical: url,
+    },
   };
 }
 
@@ -64,10 +89,24 @@ export default async function ArchivePostPage({
   const backHref =
     wander === "order" ? "/archive" : `/archive?wander=${wander}`;
 
+  // Article JSON-LD — emitted as a single inline <script> so search
+  // engines can read each archive entry as a dated, authored article.
+  // Per Naz's M6 brief: headline (Name + meaning), author (Sufi Punk),
+  // datePublished, description, mainEntityOfPage. We additionally
+  // include image + publisher so structured-data validators don't
+  // complain about missing required fields on `Article`.
+  const jsonLd = articleJsonLd(post);
+
   return (
     <>
       <SiteHeader />
       <main className="container py-16 sm:py-20">
+        <script
+          type="application/ld+json"
+          // JSON.stringify is safe here: all the values come from
+          // typed fields, never from user input or markdown bodies.
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         <ArchivePostHeader post={post} />
 
         <div className="divider-flower mt-10" aria-hidden="true">

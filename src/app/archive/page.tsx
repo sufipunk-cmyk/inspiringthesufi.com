@@ -13,11 +13,38 @@ import { SiteHeader } from "@/components/site/SiteHeader";
 import { loadAllArchivePosts } from "@/lib/archive/loader";
 import { isWanderMode, sortPosts } from "@/lib/archive/wander";
 import type { WanderMode } from "@/lib/archive/types";
+import { OG_IMAGES } from "@/lib/seo/og";
+
+const ARCHIVE_DESCRIPTION =
+  "Forty-nine names. Forty-nine songs. Each of the 99 Names of Allah set next to a piece of secular music — a digital archive of a finished body of work.";
 
 export const metadata: Metadata = {
   title: "The Archive — Inspiring the Sufi",
-  description:
-    "Forty-nine names. Forty-nine songs. Each of the 99 Names of Allah set next to a piece of secular music — a digital archive of a finished body of work.",
+  description: ARCHIVE_DESCRIPTION,
+  openGraph: {
+    title: "The Archive — Inspiring the Sufi",
+    description: ARCHIVE_DESCRIPTION,
+    url: "/archive",
+    type: "website",
+    images: [
+      {
+        url: OG_IMAGES.archive.src,
+        width: OG_IMAGES.archive.width,
+        height: OG_IMAGES.archive.height,
+        type: OG_IMAGES.archive.type,
+        alt: OG_IMAGES.archive.alt,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "The Archive — Inspiring the Sufi",
+    description: ARCHIVE_DESCRIPTION,
+    images: [OG_IMAGES.archive.src],
+  },
+  alternates: {
+    canonical: "/archive",
+  },
 };
 
 type SearchParams = { wander?: string | string[] };

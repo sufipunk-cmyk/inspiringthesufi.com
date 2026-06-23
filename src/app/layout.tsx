@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Cormorant_Garamond, Amiri } from "next/font/google";
 import "./globals.css";
 import ClientBody from "./ClientBody";
+import { SITE_URL } from "@/lib/seo/site";
 
 /**
  * Brief: Cormorant Garamond + Amiri only.
@@ -35,8 +36,20 @@ const amiri = Amiri({
   display: "swap",
 });
 
+/**
+ * Root metadata. Note there is intentionally NO `openGraph.images` array
+ * declared here: Naz's M6 directive is an explicit per-page OG image
+ * rather than one site-wide default. Each page (/, /about,
+ * /play-with-me, /archive, and every /archive/[slug]) attaches its own
+ * `openGraph.images` and `twitter.images`, and Next merges those with
+ * the rest of this default block.
+ *
+ * `metadataBase` is sourced from `SITE_URL` so the canonical host is
+ * single-source — change `NEXT_PUBLIC_SITE_URL` in one place and every
+ * absolute URL on the site (sitemap, robots, OG, JSON-LD) follows.
+ */
 export const metadata: Metadata = {
-  metadataBase: new URL("https://inspiringthesufi.com"),
+  metadataBase: new URL(SITE_URL),
   title: {
     default: "Inspiring the Sufi — The Archive",
     template: "%s · Inspiring the Sufi",
@@ -49,7 +62,7 @@ export const metadata: Metadata = {
     description:
       "Forty-nine names, forty-nine songs — an archive pairing the 99 Names of Allah " +
       "with the secular music that calls them out.",
-    url: "https://inspiringthesufi.com",
+    url: SITE_URL,
     siteName: "Inspiring the Sufi",
     type: "website",
   },

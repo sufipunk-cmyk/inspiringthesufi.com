@@ -95,10 +95,13 @@ if (copied.length > 0) {
   console.log("  Single-source-of-truth: no About paragraph hard-coded in page");
 }
 
-// 6. Approval markers
+// 6. Approval markers — should be zero (overline + tagline confirmed post-M5).
 const markerCount = (src.match(/AWAITING NAZ'S APPROVAL/g) ?? []).length;
-console.log(`  Approval markers      : ${markerCount} (overline + tagline)`);
+console.log(`  Approval markers      : ${markerCount}   (expected: 0)`);
 if (markerCount > 0) {
+  console.log(
+    `\n  ⚠️  ${markerCount} stray AWAITING NAZ'S APPROVAL marker(s) in src/app/page.tsx — should be zero (overline + tagline were approved post-M5).`,
+  );
   warnings += 1;
 }
 
@@ -107,7 +110,7 @@ if (errors > 0) {
   console.log(`  Done — ${errors} error(s), ${warnings} warning(s).\n`);
   process.exitCode = 1;
 } else if (warnings > 0) {
-  console.log(`  Done — ${warnings} warning(s) (overline / tagline awaiting Naz's approval).\n`);
+  console.log(`  Done — ${warnings} warning(s).\n`);
 } else {
   console.log("  Done — clean.\n");
 }

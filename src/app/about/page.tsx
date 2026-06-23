@@ -24,11 +24,38 @@ import type { Metadata } from "next";
 import { SiteHeader } from "@/components/site/SiteHeader";
 import { SiteFooter } from "@/components/site/SiteFooter";
 import { ABOUT_PARAGRAPHS, ABOUT_PULL_QUOTE } from "@/lib/about/text";
+import { OG_IMAGES } from "@/lib/seo/og";
+
+const ABOUT_DESCRIPTION =
+  "Low-demand faith and Spiritual Parallel Play, in Naz's own words.";
 
 export const metadata: Metadata = {
   title: "About — Inspiring the Sufi",
-  description:
-    "Low-demand faith and Spiritual Parallel Play, in Naz's own words.",
+  description: ABOUT_DESCRIPTION,
+  openGraph: {
+    title: "About — Inspiring the Sufi",
+    description: ABOUT_DESCRIPTION,
+    url: "/about",
+    type: "article",
+    images: [
+      {
+        url: OG_IMAGES.about.src,
+        width: OG_IMAGES.about.width,
+        height: OG_IMAGES.about.height,
+        type: OG_IMAGES.about.type,
+        alt: OG_IMAGES.about.alt,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About — Inspiring the Sufi",
+    description: ABOUT_DESCRIPTION,
+    images: [OG_IMAGES.about.src],
+  },
+  alternates: {
+    canonical: "/about",
+  },
 };
 
 // Toggles. Pull-quote stays on (Naz's call). Come-sit-with-me links to

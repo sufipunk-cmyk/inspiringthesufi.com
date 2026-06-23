@@ -21,21 +21,44 @@ import { SiteHeader } from "@/components/site/SiteHeader";
 import { SiteFooter } from "@/components/site/SiteFooter";
 import { ArchiveIndexWanderLine } from "@/components/archive/ArchiveIndexWanderLine";
 import { ABOUT_PARAGRAPHS } from "@/lib/about/text";
+import { OG_IMAGES } from "@/lib/seo/og";
+
+const HOME_DESCRIPTION =
+  "Forty-nine names. Forty-nine songs. Each of the 99 Names of Allah set next to a piece of secular music — a digital archive of a finished body of work.";
 
 export const metadata: Metadata = {
   title: "Inspiring the Sufi",
-  description:
-    "Forty-nine names. Forty-nine songs. Each of the 99 Names of Allah set next to a piece of secular music — a digital archive of a finished body of work.",
+  description: HOME_DESCRIPTION,
+  openGraph: {
+    title: "Inspiring the Sufi",
+    description: HOME_DESCRIPTION,
+    url: "/",
+    type: "website",
+    images: [
+      {
+        url: OG_IMAGES.home.src,
+        width: OG_IMAGES.home.width,
+        height: OG_IMAGES.home.height,
+        type: OG_IMAGES.home.type,
+        alt: OG_IMAGES.home.alt,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Inspiring the Sufi",
+    description: HOME_DESCRIPTION,
+    images: [OG_IMAGES.home.src],
+  },
+  alternates: {
+    canonical: "/",
+  },
 };
 
-// AWAITING NAZ'S APPROVAL — Q1: italic tagline beneath the wordmark.
-// Picks up Naz's own word "attention" from About paragraph 5
-// ("…attention could become a form of devotion"). Keep, replace, or
-// remove altogether — wordmark-only hero is also a clean option.
+// Tagline + overline confirmed by Naz post-M5.
+// "An archive of attention." picks up Naz's own word "attention" from
+// About paragraph 5 ("…attention could become a form of devotion").
 const HOME_TAGLINE = "An archive of attention.";
-
-// AWAITING NAZ'S APPROVAL — Q2: overline. Drafted as a single uppercase
-// kicker over the wordmark. Approve, shorten, or remove.
 const HOME_OVERLINE = "Inspiring the Sufi · Archive";
 
 const EXCERPT = ABOUT_PARAGRAPHS.slice(0, 2);

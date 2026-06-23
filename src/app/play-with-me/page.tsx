@@ -21,11 +21,38 @@ import {
   PLAY_INTRO_HEADING,
   PLAY_INTRO_PARAGRAPHS,
 } from "@/lib/play/text";
+import { OG_IMAGES } from "@/lib/seo/og";
+
+const PLAY_DESCRIPTION =
+  "There are as many ways to turn toward the Divine as there are people seeking. What's yours? A native, quiet form for sharing your own way in.";
 
 export const metadata: Metadata = {
   title: "Play with me — Inspiring the Sufi",
-  description:
-    "There are as many ways to turn toward the Divine as there are people seeking. What's yours? A native, quiet form for sharing your own way in.",
+  description: PLAY_DESCRIPTION,
+  openGraph: {
+    title: "Play with me — Inspiring the Sufi",
+    description: PLAY_DESCRIPTION,
+    url: "/play-with-me",
+    type: "website",
+    images: [
+      {
+        url: OG_IMAGES.playWithMe.src,
+        width: OG_IMAGES.playWithMe.width,
+        height: OG_IMAGES.playWithMe.height,
+        type: OG_IMAGES.playWithMe.type,
+        alt: OG_IMAGES.playWithMe.alt,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Play with me — Inspiring the Sufi",
+    description: PLAY_DESCRIPTION,
+    images: [OG_IMAGES.playWithMe.src],
+  },
+  alternates: {
+    canonical: "/play-with-me",
+  },
 };
 
 export default function PlayWithMePage() {
