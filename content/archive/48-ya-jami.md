@@ -29,8 +29,6 @@ comments: []
 
 Dedicated to all my ladies - I couldn't find a more perfect song to explore the meaning of The Gatherer.
 
-[youtube:OqN0jsSeqPo]
-
 **_According to my source the 86th name is the gatherer. It means to come back together, to bring all the parts into a whole. Al Jami is to return home, to return to the real self. It is a constant process of becoming reconnected with wholeness. It is sometimes called the grand synthesis, the joining of all joining. I love reading about the nafs (ego) begin to merge with the ruh or soul and its an ecstatic union. Then varying aspects of the higher self or soul manifestt into the lower self or nafs and reintergrate._**
 
 Lyrics

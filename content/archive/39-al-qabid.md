@@ -27,8 +27,6 @@ hero: null
 comments: []
 ---
 
-[youtube:1lyu1KKwC74]
-
 My whole life I always thought there was only one way to be. Often if I wasn't in the the place or state I wanted to be in I would be brutal to myself. I never realised the impact of my inner-voice on me in these moments. Its amazing to reach a place where I am consistent. My inner-voice is consistent with love and compassion no matter what I do. You have to really train yourself to hear, feel and know the bitter sweet symphony of life - the song below is amazing in expressing this.
 
 **_According to my source the 20th name Al Qabid is the only source of all contraction and the only one who actually contracts. At the physical level, continual contraction and expansion are seen throughout nature. It is in the natural physical rhythm of the heart and lungs. Contraction and expansion are also aspects of the greater sphere of heart. Transient states, call ahwal, constantly are experienced in the wider sphere of heart, which could be called the depth of feeling._**

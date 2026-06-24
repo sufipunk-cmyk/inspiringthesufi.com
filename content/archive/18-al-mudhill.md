@@ -78,8 +78,6 @@ There is so much more to say on this and I am over my word limit. But I'm really
 
 There are three songs I wish to show from the album. There are no original videos from the artist or the label so grateful to this person who has uploaded the songs as they need to be shared. I hope for this purpose its acceptable and inspires you to get the actual album from [KKV](http://kkv.no/en/en/Utgivelser/2008/Mahsa-and-Marjan-Vahdat/).
 
-[youtube:gawnR7EjOPM]
-
 **I am Eve**
 
 **Poem: Azar Khajavi (contemporary poet)**
@@ -118,8 +116,6 @@ I am Eve, I am woman
 
 I am Eve, I am woman
 
-[youtube:maxWzQrPC0Q]
-
 **Sorrowful Spring**
 
 **Poem: Hoshang Ebtehaj (Contemporary poet)**
@@ -153,8 +149,6 @@ What brought disturbance to our garden?
 Why is blood dripping from the spray of flowers?
 
 What has happened? Where has the voice of the nightingale gone?
-
-[youtube:hD11lrrelE0]
 
 **The Mirror of Morning Wine**
 

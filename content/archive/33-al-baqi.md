@@ -63,8 +63,6 @@ comments:
 
 After my trip down memory lane last week I wanted to continue to hear music that made feel like I was in a different place. Culture is great for that so I hunted through my stash and found a compilation called African Twarang. So I am so mega excited to find out about this artist. You can learn more about Oumou Sangare [here](https://en.wikipedia.org/wiki/Oumou_Sangaré), doesn't she sound amazing. If you venture into her other songs let me know what else you find. Check out the song and the lyrics are below as well as on you tube. When I used to listen to this before I would imagine it was a kind of work song. But its totally not that at all. Its a very real look at how death is experienced by some of us.
 
-[youtube:kHMFie-BOPs]
-
 O death; O death
 
 Death is so harsh

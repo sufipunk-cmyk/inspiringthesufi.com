@@ -36,11 +36,7 @@ hero: null
 comments: []
 ---
 
-[youtube:6XP-f7wPM0A]
-
 I am trying to inspire my son to learn meditation and wanted to show him other children doing meditation. I found this by Tina Turner ages ago and it really impressed me. In fact there is quite a bit of music she has done around meditation - its kind of opposite to her rock and roll days but so important to have an example of the two opposites and achieving balance.
-
-[youtube:isXLBHCDo4Y]
 
 March is always a month championing women with Mothers Day and International Women's Day. So I think its quite apt to focus on Tina today. I don't know much about Tina Turner other than seeing [“Whats love got to do with it”](https://en.wikipedia.org/wiki/What%27s_Love_Got_to_Do_with_It_\(film\)) when I was younger and that was the first time I learnt about how she got into Buddhism. To this day she has practised that and even to the point where she is sharing music inspired by her faith. Its not something I have heard of before or even find easy to listen to. But in doing so I can recognise two names - Al Mumin the 6th Name and the 63rd Name Al Qayyum. The first is because she demonstrates real faith after all these years it appears even committed and stronger than ever. The latter name because the chanting and focus reminds me of the one who remains through all the permutations of time and pace - the chants echo and remain when I focus on them. I can leave the room and come back and can still feel their vibration - she makes them even more powerful I feel. The sound of the chants, dominant, strong, firm, permanent, solid, never-ending.
 

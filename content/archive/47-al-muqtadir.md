@@ -27,8 +27,6 @@ hero: null
 comments: []
 ---
 
-[youtube:eY0fxvV8cwI]
-
 Album A Gift of Love - Music Inspired by the Love Poems of Rumi
 
 Lyrics  

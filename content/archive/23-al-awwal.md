@@ -61,8 +61,6 @@ The 1st of Ramadan is here - the month of fasting. Something that I used to love
 
 The track below never fails to get me in the spirit of Ramadan. Khalid Belrhouzi vocals make this one of my most favourite versions of the famous “Poem of the Cloak”. (World Famous across the muslim world).
 
-[youtube:E4DhtfPWinE]
-
 This poem moved me so deeply that I created a whole project around it and studied it in many ways. You can hear a Radio 4, Poetry Hour Documentary (approx. 30 mins long) about this poem and the project I created below.
 
 I have many copies of the poem in a hardback book which we used during workshops in schools etc. If you want a copy please drop me a line I will be happy to send you a copy.

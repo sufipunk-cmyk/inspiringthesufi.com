@@ -71,8 +71,6 @@ I know your news don't cancel your secrets
 
 These are not your thoughts I know what the mood is
 
-[youtube:pso3MUvwCSc]
-
 According to my source the 93rd name **_Al Nur (The Light) is the essence of light, luminosity itself. Al-Nur is the light of every soul and an inherent characteristic in every pore of your body. Whatever way we may turn we see the all-pervading light of al Nur. Even the darkness shines from within it. All the various forms of wisdom and guidance are expressions of an-Nur._** I think this song is a great example of light. It feels this song is really about a relationship. How many times have you felt something is not right with someone. How hard it is to try and uncover the truth and at what risk. The very risk of spoiling the mood - how delicate this is I am appreciating. I haven't been able to cook for a week and thoughts of becoming a vegan float through my mind. When I think of a tasty dish the mood is changed to images of cows not being treated well. I love dairy, but I find an inner conversation happening. Part of me wants to forget I ever saw the video, the other half of me is presenting new ideas and opportunities.
 
 What inner conflicts are you dealing with this week?

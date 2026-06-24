@@ -67,8 +67,6 @@ I had to learn to appreciate him.
 
 In the 80’s when I was growing up, I knew of Prince but thought he was rude and that I shouldn't listen to him. As I became a teenager I began buying prince albums because I was curious about some of the sexual content and fantasies. But as I grew older I really began to appreciate the talents of this man.
 
-[youtube:7IQE62Vn4_U]
-
 In 2007 I went to see him at the O2 Arena. The ticket price was £31.21 (I think) and I could not believe I could afford to go. I bought six tickets for me and my friends. I have to say that I wasn't ready to leave the event. The arena emptied but I sat there completely in awe, mesmerised and blown away. He sang about a lot of things so coming from a conservative muslim background opening up to this was like opening up to the world. His songs carried me through deep moments of loneliness to memories of joy and celebration. But above all I love the way Prince just focused on his music. You can read about how talented he was. I love his struggle with the internet and social media. I love his arrogance that comes across sometimes but I choose to see it as belief in himself and creator as only he knows how hard he worked for his gifts. Just to give you an idea **“The Album For You was recorded without a band and Prince played all 27 instruments including strings, percussion and keyboard instruments.**” As someone who never got the chance to learn even one instrument this is awe inspiring. I love how he exposed the music industry and walked around with SLAVE written on his face. Ultimately he lead me to some truths. Theres hardly any of his music online. Below are just a few songs that I did manage to find that helped my soul through some rough times.
 
 Rest In Peace Prince x

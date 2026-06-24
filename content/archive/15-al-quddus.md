@@ -35,8 +35,6 @@ This week I was thinking about what do over the Easter Break. A very dear friend
 
 So for my dear friend here is one of the most famous Rai songs from Algeria to get you in the mood for your trip. I heard this years ago and I believe it is popular again due to Airlift the new Bollywood release.
 
-[youtube:g93odzEUXg8]
-
 [Click here for lyrics](http://lyricstranslate.com/en/node/70638)
 
 What music reminds you of home? My dad loved Noor Jahan but I think I will save that for next week! xx

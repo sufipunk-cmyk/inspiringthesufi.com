@@ -53,4 +53,3 @@ For those of you who are creative perhaps you can write what come next? Or see w
 
 When I heard this coke studio session with Master Saleem it reminded me of this idea. Please see the you tube description and what the song is about. I only discovered Master Saleem this summer - he helped me to connect with punjabi language which was the language I used to speak to my mom and dad. I hardly ever speak it now.
 
-[youtube:itdTtu9heSU]

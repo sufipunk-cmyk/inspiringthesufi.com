@@ -39,4 +39,3 @@ Im a big fan of Alanis Morissette and watch with great interest her transition i
 
 I dedicate this post and song to Chari Schwartz from Canada. Thank you for your unconditional love and for being my Guardian in this work. xxxx
 
-[youtube:gCBIG28On0o]

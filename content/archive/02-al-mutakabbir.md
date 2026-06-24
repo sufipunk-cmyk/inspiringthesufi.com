@@ -57,13 +57,7 @@ For those of you who are creative perhaps you can respond to the words in the so
 
 **Original version**
 
-[youtube:ybuuaqQXNVo]
-
 **Electronic versions**
-
-[youtube:PHk4ct21vQ0]
-
-[youtube:syn0RkCQbnY]
 
 Lyrics (english translation from Egyptian so not 100% accurate)
 

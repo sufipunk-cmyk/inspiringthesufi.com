@@ -53,8 +53,6 @@ comments:
 
 I wonder if anyone remembers these guys? Im so curious about them, I found their music beautiful and so different lyrically to anything I was listening to at the time. Anyway, this song came immediately to mine when I saw the word patient. If you get a chance check out this [blog post](https://edgeinducedcohesion.blog/2011/10/04/pm-dawn-and-the-gnostic-revival/), it talks about this band and song but its quite reactionary. I suppose I'm used to hearing songs that have different layers of meaning and I don't see it as being sinister. You can take any song to be about romantic love or about anything it reminds you of which I do in this blog all the time. Id love to know what you think.
 
-[youtube:k_0LHKxTy9g]
-
 **_According to my source the 99th Name As Sabur is the divine power that will always see things through to the end. At the human level, it means to maintain inner equanimity though all trials and circumstances and to persevere to the end of the test. A physical-plane variation of its root means to endure and to stop complaining. As Subur embodies development of complete inner capacity. It is a great container that enables a spiritual student to endure the long journey of the path and actualise every detail and technique of the teachings. It is a powerful solidarity that allows you to stand firm. The divine manifestation of As Sabur as a quality of God empathises that God doesnt act hastily but forgives or defers judgement._**
 
 **Lyrics**

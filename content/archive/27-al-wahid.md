@@ -37,8 +37,6 @@ comments:
       Very thouughtful blog
 ---
 
-[youtube:P5W8x4Q7N9c]
-
 Its been so hard to be motivated to write these last few weeks. Since Britain voted to leave the EU I feel that Ive entered a state of numbness. There is so much bugging me about the external world from the political figures to the media coverage to even my friends and family. The only thing that I have felt in control of has been my internal world. Inside I feel such a oneness like I'm part of the vastness of the open sky. In fact I can look at the sky and watch the clouds joining and changing forms it brings tears to my eyes. People are reacting, commenting, acting outside of full awareness of who they are. They think we are separate from each other. Its like a cloud saying I am not part of the sky, what will happen to that cloud? Everything externally is serving to create the sense of separateness so fear can rule. I ask you would be warmth or cold as described below.
 
 **Commentary by Murshid Inayat Khan:**
@@ -53,4 +51,3 @@ Anyway two songs Id like to share. I was just reading an article about [Riz MC](
 
 How are you feeling about things? Whats the music carrying you through this day to day madness?....please share xx
 
-[youtube:F4Fz6SBjGGs]

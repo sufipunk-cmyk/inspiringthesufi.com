@@ -37,8 +37,6 @@ Over the last few months Ive received amazing new ideas and input around how I s
 
 Ive managed to find two versions of this track. The second version is a club mix see which you prefer. Check out the artists and their work [here](http://www.aboveandbeyond.nu/album/sirens-of-the-sea/miracle) and lyrics. Ive added them below to help you out!
 
-[youtube:JsL9q3Pr4kw]
-
 Don't they know that there's something going on  
 What they're harming with their indecision?  
 And who will be left standing when I'm gone?  

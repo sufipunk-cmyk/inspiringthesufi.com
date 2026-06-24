@@ -75,13 +75,9 @@ The first song that really moved me is called Sarah. I didnt know what it was ab
 
 You can find out about the song lyrics and peoples comments [here.](http://www.arabicmusictranslation.com/2008/10/rim-banna-sarah-sara.html) Please listen you dont need the translation for it to move you.
 
-[youtube:N9cW_IiDJ9s]
-
 Then next song is called **The Voice, the fragrance and the figure:**
 
 Lyrics:
-
-[youtube:O_Y1SYy3ho8]
 
 Oh root of my roots, I will surely return, so wait for me
 
@@ -102,8 +98,6 @@ And the call of the land is victorious in my veins
 I am coming back, so keep my voice, my scent, and my form for me, oh flowers
 
 **Ya Jammal : Arabic Song by Rim Banna - English translation below:**
-
-[youtube:z8rSpTrDcYQ]
 
 The Jammal made my heart miserable  
 When he chose to go  

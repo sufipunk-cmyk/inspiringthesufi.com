@@ -37,4 +37,3 @@ It feels quite hopeless to pick any particular song of theirs as it was their so
 
 Okay check out the album below - back to back of Nazia and Zoheb, pure bliss x.
 
-[youtube:K797A36tjdo]

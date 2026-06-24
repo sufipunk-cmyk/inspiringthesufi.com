@@ -35,8 +35,6 @@ Let me know if you manage to check out the album and any tracks you like. I thin
 
 **_According to my source the 59th name Al Muid is the one, the only one, who is capable of mercifully giving refuge to every single thing. It returns the visible manifestation to the invisible essence. It is the one who brings things to their ultimate end. The Divine quality accepts each one, and everything, without exception, in its return to the source, which is Allah/God._**
 
-[youtube:m5tBag0DAMs]
-
 You are my shepard babe
 
 I wouldn't have it any other way

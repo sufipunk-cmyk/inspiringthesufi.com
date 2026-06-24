@@ -50,4 +50,3 @@ So I will try reciting Al Hayy to give me the life energy to begin this new chap
 
 For all of you feeling loss like me...lets pause...listen...cry...see the beauty in where we are, what we are and what we will do next.
 
-[youtube:HaMq2nn5ac0]

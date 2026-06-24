@@ -80,15 +80,9 @@ Its his birthday this month and as I feel overwhelmed with all the things I want
 
 Kabir criticised equally both the muslim and hindu religious establishment. He talks about how many lies we tell ourselves something which is still so relevant in people today (especially now with social media). I love Shabnam's Ted Talk below which I think is a great introduction to this Poet and how studying his work can impact you personally.
 
-[youtube:iHz5ypl2ZDI]
-
 Unlike Rumi who the world knows I only came across Saint Kabir when I was looking for names. I think only those connected with South Asia (India) may know of him. One of my passions is to create work inspired by Kabir’s poetry. Below are a few links I found recently, these include details about Saint Kabir’s life. A concert of Kabir’s music with translation.
 
-[youtube:24eczLuq1n0]
-
 I have recently met some women from the Sikh heritage who love Kabir and can recite his work. We are just working out how to shape a recording opportunity and welcome any further interest. In the meantime I've managed to track down a book of Kabir poetry in English which I am reading and saving my favourites.
-
-[youtube:YCAx95wucEE]
 
 Al-Kabir is the 37th Name in Islam when it comes to the 99 Names of Allah.
 

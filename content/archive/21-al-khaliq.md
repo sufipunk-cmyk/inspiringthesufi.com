@@ -52,6 +52,4 @@ So then my heart went to [Niyaz](http://www.niyazmusic.com) and [Azam Ali](http:
 
 What does Al Khaliq remind you of?
 
-[youtube:7BwWAHqxcTw]
-
 _Just to point out_ **_In March 2015, Niyaz released their fourth full-length studio album entitled “The Fourth Light,” a tribute to the first female Sufi mystic and poet Rabia Al Basri who was born in the 8th century in Iraq. She is recognized as a saint as she was the one who set forth the doctrine of Divine Love and non-duality, which today lie at the heart of Sufi mysticism. Though her role continues to be diminished in value because she was a woman, it bears great significance in today’s modern world where women are still relentlessly striving in every aspect of life, to rise above the status of inferiority placed on them by patriarchal societies and laws. “The Fourth Light” has received rave reviews and features on The BBC World Service, Huffington Post, NPR, PRI’s The World and MTV Iggy. Niyaz is currently touring the new album internationally._**

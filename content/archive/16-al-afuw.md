@@ -37,10 +37,7 @@ My dad died 5 years today………what to say…he died in Pakistan so I never g
 
 _**"Al-Afuw is the perfection of divine forgiveness. It does not even notice fault. Al Afuw can be compared to the wind completely easing the footprints in the desert and, as if no one had ever walked there. This image is one of the physical plane meanings that its root takes. Al afuw is to completely forgive with a trace of residue. No resentment, memory or impression is left to obscure your heart or mind. Such forgiveness requires the easing of the “I” that is usually clung to in the thought, “I” forgive you”."**_
 
-[youtube:nhyjzHFbxcI]
-
 I cant say that I miss you dad but I do know that I love you. You went through a lot and I understand some of your journey and experience. I just want to make you proud. I pray you are in a better place. Each time I kiss the back of my sons hand when he sits next to me I recall how you would kiss the back of my hand when I would sit next to you. This is the memory of you that lives on in me and I can feel you. I know how much you loved music. Here is your favourite by [Noor Jahan](https://en.wikipedia.org/wiki/Noor_Jehan). I will tell your Grandson about your stories and the music you loved.
 
 Please dedicate your songs and tributes to people you have lost here. I heard this Bat for Lashes song today which helped musically express some of the mixed up emotions I feel today.
 
-[youtube:XBjuJbvqm_Y]

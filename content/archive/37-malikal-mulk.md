@@ -49,4 +49,3 @@ If there is a kingdom of God to be found anywhere, it is within oneself. And it 
 
 As Lorde turned 20 this week, which I also caught a glimpse of on social media. I thought her song Royals is one to think about and take some feel goodness from. Are their any other songs that make you feel Royal or remind you of your majestic self?
 
-[youtube:nlcIKh6sBtc]

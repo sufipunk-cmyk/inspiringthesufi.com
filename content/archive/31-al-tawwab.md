@@ -162,12 +162,9 @@ In the background this week Angelina Jolie files for divorce and I can feel my c
 
 Even today a few of us ladies can get together and we always say men cant sing _**lovers**_! Back then I was so young with hardly any experience of love and relationships but the _**lovers rock**_ music felt like home. When we used to talk about boys in school it was about who’s broken up and who has cheated on who etc. and these songs were just a comforting reminder that all men were gonna break your heart one day. How long ago were those days and now as a mother of a son I do not hold such views. But every so often I catch the collective female pain body giving me thoughts and ideas that I have to try catch before they take hold. I still love listening to **_lovers_** and below are two of my favourite songs. Reggae music just always feels good, like the sun shining and somehow these songs even though they talk of heartbreak still have a feel good vibe and thats why I think they stand the test of time. Now I tap into the feel good of my youth, the comfort of my parents home, thinking about love and just being happy. Some days I just put Carol Thompson in youtube and click the 50 mix and let it play all day - its great to do housework too or just chill!
 
-[youtube:SQifmDrqlsc]
-
 _**According to my source the 79th name At Tawwab is the forgiveness that enables you to turn away from grudges, and perceived individual defects, towards the perfection of Allah/God. It comes with the realisation that the divine beloved is always turning towards you, continually offering a gaze of deep forgiveness and endless compassion. At Tawwab conveys the real meaning of repentance, the turning from the limitations of the false self and towards the perfection of your immortal soul, which is not separate from the divine reality. Realising At Tawwab involves giving up the attachment of being right. It means giving up self righteousness and letting go of the grudge. It is to turn your face toward someone else with forgiveness and compassion. It uses the densest elements of a situation as an inner impetus for transformation and to turn toward God. Repetition of Ya Tawwb allows you to turn towards the divine face in every face. It is an antidote for clinging to, and identifying with, a wounded sense of self-deficiency.**_
 
 Hope these words are of some comfort to anyone needing them and Angelia in case she reads this one day!
 
 Please share your favourite lovers tracks here...cant wait to hear them!!!
 
-[youtube:29b8lieI8mM]

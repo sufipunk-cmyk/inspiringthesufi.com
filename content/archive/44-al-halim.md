@@ -29,8 +29,6 @@ comments: []
 
 **_According to my source the 32nd name Al Halim is tender love, gentle and kind love. The tenderness of Al Halim is physical, emotional and nurturing. God manifest this quality anywhere and everywhere, without exception. One root meaning is the shyness and gentleness that is found in a young girl. There is a kind of retiring or monastic quality to Al Halim. It offers softness and kindness that makes for perseverance. Al Halim is the place where the dreams can arise, which are really visions. Al Halim offers an avenue for creative imagination, even as God is said to lovingly dream the universe. Al Halim is mildness of manner this is an antidote for anger and impatience. It expands with immense openness._**
 
-[youtube:9AQIcILiGlA]
-
 For days now the song below has been playing inside me. The qualities I read above somehow relate to the qualities of the song even though its a man singing and the content is very delicate and deeply moving. I just had it playing in the background then as always when a song gets my attention I have to look deeper into it. I believe its a song about longing for mum. Something that made me flood my room with tears and my mum is still around. It made me appreciate her and make internal promises that I will soak every moment I have with her.
 
 This is the write up and lyrics/translation below. What other songs remind you of Al Halim?

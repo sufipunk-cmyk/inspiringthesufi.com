@@ -81,6 +81,4 @@ Teflatan ya halee (She is a young beauty)
 
 Wil asaal reegaha (In her voice there is honey)
 
-[youtube:wlaZSx6tqRo]
-
 So musically how does this inspire you? What is the best mothers day tribute you have experienced? What do you understand from what written here? So many questions to ask you guys! This blog is not about writing epic blog posts which some of these names deserves but I hope are just starting points to thinking, conversations we may have one day. All this leads to creating something special. xx

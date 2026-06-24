@@ -56,12 +56,7 @@ According to my source _**the 73rd name**_ _**Al-Akhir is the last, without a pe
 
 Id love to hear your ideas for Eid songs. For now check out below, Ive include a bollywood song, a rap/electronic song and I guess the one below is a fusion/soul type Justin Bieber (as someone said in the comments!). Which one do you like?
 
-[youtube:qnxYiaHRPFY]
-
 Rap/Electronic Song by Native Deen
-
-[youtube:3Z-cV4DYCKw]
 
 According to my source Al-Akhir is the last, without a penultimate. In other words, there is no next-to last, or anything previous to it. And Al Akhir is the last without an after. Nothing can possibly follow it. Al-Akhir is the one fully manifest in time. It is the final destination of the ultimate return of all things.
 
-[youtube:-5ff0lgzUOs]

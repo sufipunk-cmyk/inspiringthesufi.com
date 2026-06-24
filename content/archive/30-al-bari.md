@@ -91,8 +91,6 @@ Each individual composes the music of his own life. If he injures another, he br
 
 I came across this track by Desert Dwellers a few weeks ago. I was looking for something positive and reflective of my inner journey. I would love to know what you think of it. Check out their catalogue [](http://desertdwellers.org/music/)[here](http://desertdwellers.org/music/) \- looks like some great finds (please share with me!).
 
-[youtube:_vM79tMNFsw]
-
 It reminded me of Al Bari (The Maker)
 
 _**According to my source the 12th Name Al Bari is the originator of individuation. What God creates is well proportioned and in a manner free from inconsistencies, faults, blemishes, deficits and imperfection. The nature of Al Bari is to make the universe like that. On a personal level it can mean to free yourself from any unclean things, to become free from guilt, and to become pure of soul.**_

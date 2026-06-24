@@ -39,8 +39,6 @@ This name reminds me of a time when I felt quite a bit of injustice. I remember 
 
 I love the whole MTV Unplugged session by Lauren. It makes up for when I spent £20 to go and see her and she came late and looked like a poodle and sang songs none of us ever heard of. We did leave in the end as we were too disappointed. Maybe this again is another act of Al Muntaqim in action lol!
 
-[youtube:Mq00-nAhEtE]
-
 **Lyrics "So Much Things To Say"**
 
 Yeah, yeah yeah, yeah yeah yey  

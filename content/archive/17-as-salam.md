@@ -72,8 +72,6 @@ This blog writing experience feels so natural and effortless at times. [Ajeet Ka
 
 _**According to my source the 5th name As-Salam is peace itself. Such peace is not the result of anything and is nothing that can be said to manifest. There is no peace except the peace found in as-Salam. In another sense, as-Salam is the one who is peaceful. It is the spiritual station, of complete peace, where this perfect peace is embodied in every peaceful act. This divine quality is recommended as a greeting when meeting others and its recitation**_ _**is an antidote for disharmony in our relationships. One form of the root of Ya Salam means “to be safe”. The peace of as-Salam is not a dead place, nor should it be seen as simply the end of hostilities, or any kind of mere cessation. It is the divine energy that bestows peace itself on us, and it is the miraculous word, or qawl that Allah speaks to our souls. Ya Salam may be repeated as a prayer of blessing for those who have departed. It brings the knowledge of not being abandoned at death to those who may be grieving, and to the departed souls as well.**_
 
-[youtube:vzU6rH-TXmI]
-
 **Lyrics:**
 
 Peace within Me
@@ -96,4 +94,3 @@ Have you noticed what makes you peaceful? Have you ever been moved by another la
 
 Check out Ma by Sirgun Kaur all part of [Spiritvoyage.com](http://www.spiritvoyage.com) below - it will totally calm you down. I have fallen in love with it and play to myself and my son at bedtime and morning.
 
-[youtube:nLYRGOKsdoQ]

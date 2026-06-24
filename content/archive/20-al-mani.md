@@ -39,8 +39,6 @@ Mariem's story reminds me of Al Mani' (The Preventer of Harm). [Once upon a time
 
 Im sure most of us have a fight song. Let me know yours. I'll leave you with one of Mariem's. xx
 
-[youtube:cpnpyGAS374]
-
 Cheer O revolutionaries! Cheer! (x2)
 
 All revolutionaries! (x2)
