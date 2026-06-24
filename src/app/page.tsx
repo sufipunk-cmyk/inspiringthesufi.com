@@ -24,7 +24,7 @@ import { ABOUT_PARAGRAPHS } from "@/lib/about/text";
 import { OG_IMAGES } from "@/lib/seo/og";
 
 const HOME_DESCRIPTION =
-  "Forty-nine names. Forty-nine songs. Each of the 99 Names of Allah set next to a piece of secular music — a digital archive of a finished body of work.";
+  "Fifty Names of Allah. Forty-nine songs. Each Name set next to a piece of secular music — a digital archive of a finished body of work.";
 
 export const metadata: Metadata = {
   title: "Inspiring the Sufi",
@@ -74,7 +74,7 @@ export default function HomePage() {
             {HOME_OVERLINE}
           </p>
           <h1 className="mt-4 font-display text-5xl leading-tight text-green sm:text-6xl">
-            Forty-nine names.
+            Fifty Names.
             <span className="block">Forty-nine songs.</span>
           </h1>
           <p className="mt-6 font-display text-xl italic text-ink-soft sm:text-2xl">

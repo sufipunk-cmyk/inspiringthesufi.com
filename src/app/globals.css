@@ -202,6 +202,13 @@
     text-underline-offset: 4px;
   }
   .archive-prose a:hover { color: hsl(var(--bronze)); }
+  .archive-prose img {
+    display: block;
+    margin: 1.6em auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 2px;
+  }
   .archive-prose ul,
   .archive-prose ol {
     margin-top: 1.05em;

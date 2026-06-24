@@ -16,7 +16,7 @@ import type { WanderMode } from "@/lib/archive/types";
 import { OG_IMAGES } from "@/lib/seo/og";
 
 const ARCHIVE_DESCRIPTION =
-  "Forty-nine names. Forty-nine songs. Each of the 99 Names of Allah set next to a piece of secular music — a digital archive of a finished body of work.";
+  "Fifty Names of Allah. Forty-nine songs. Each Name set next to a piece of secular music — a digital archive of a finished body of work.";
 
 export const metadata: Metadata = {
   title: "The Archive — Inspiring the Sufi",
@@ -73,7 +73,7 @@ export default async function ArchiveIndexPage({
             The Archive
           </p>
           <h1 className="mt-4 font-display text-5xl leading-tight text-green sm:text-6xl">
-            Forty-nine names.
+            Fifty Names.
             <span className="block">Forty-nine songs.</span>
           </h1>
           <p className="mt-8 font-serif text-[1.1rem] leading-[1.7] text-ink sm:text-[1.15rem]">

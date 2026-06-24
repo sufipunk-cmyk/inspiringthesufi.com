@@ -55,13 +55,11 @@ export const metadata: Metadata = {
     template: "%s · Inspiring the Sufi",
   },
   description:
-    "Forty-nine names, forty-nine songs — an archive pairing the 99 Names of Allah " +
-    "with the secular music that calls them out.",
+    "Fifty Names of Allah, forty-nine songs — paired with the secular music that calls them out.",
   openGraph: {
     title: "Inspiring the Sufi — The Archive",
     description:
-      "Forty-nine names, forty-nine songs — an archive pairing the 99 Names of Allah " +
-      "with the secular music that calls them out.",
+      "Fifty Names of Allah, forty-nine songs — paired with the secular music that calls them out.",
     url: SITE_URL,
     siteName: "Inspiring the Sufi",
     type: "website",
@@ -70,8 +68,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Inspiring the Sufi — The Archive",
     description:
-      "Forty-nine names, forty-nine songs — an archive pairing the 99 Names of Allah " +
-      "with the secular music that calls them out.",
+      "Fifty Names of Allah, forty-nine songs — paired with the secular music that calls them out.",
   },
   icons: {
     icon: "/favicon.ico",
