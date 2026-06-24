@@ -99,7 +99,7 @@ export default function PlayWithMePage() {
         </div>
 
         <p className="mx-auto mt-12 max-w-md text-center font-serif text-xs italic text-ink-soft/65">
-          Submissions are emailed directly to Naz.{" "}
+          Submissions are emailed directly to Sufi Punk.{" "}
           <Link
             href="/about"
             className="underline decoration-bronze/50 underline-offset-4 hover:text-bronze"

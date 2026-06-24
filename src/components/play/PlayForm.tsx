@@ -68,8 +68,9 @@ const EMPTY: PlaySubmission = {
   _gotcha: "",
 };
 
-// Confirmed by Naz post-M4.
-const SUBMIT_LABEL = "Send this to Naz";
+// Confirmed by Naz post-M4. Label updated to "Sufi Punk" per Naz's
+// June 2026 site-live feedback round.
+const SUBMIT_LABEL = "Send this to Sufi Punk";
 const EMAIL_PLACEHOLDER = "you@example.com";
 const SEND_ANOTHER_LABEL = "Send another";
 
