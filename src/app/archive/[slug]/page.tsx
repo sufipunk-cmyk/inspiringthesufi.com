@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { ArchiveCommentForm } from "@/components/archive/ArchiveCommentForm";
 import { ArchiveCommentList } from "@/components/archive/ArchiveCommentList";
 import { ArchivePostBody } from "@/components/archive/ArchivePostBody";
 import { ArchivePostHeader } from "@/components/archive/ArchivePostHeader";
@@ -97,6 +98,15 @@ export default async function ArchivePostPage({
   // complain about missing required fields on `Article`.
   const jsonLd = articleJsonLd(post);
 
+  // Human-readable post label for the comment-form email payload —
+  // same construction generateMetadata above already uses for the
+  // OG/Twitter description, just prefixed with the entry number.
+  const postLabel = `No. ${post.postNumber} · ${post.name.english}${
+    post.secondName ? ` & ${post.secondName.english}` : ""
+  } (${post.name.meaning}${
+    post.secondName ? ` & ${post.secondName.meaning}` : ""
+  })`;
+
   return (
     <>
       <SiteHeader />
@@ -157,6 +167,12 @@ export default async function ArchivePostPage({
         ) : null}
 
         <ArchiveCommentList comments={post.comments} />
+
+        <ArchiveCommentForm
+          postSlug={post.slug}
+          postLabel={postLabel}
+          hasExistingThread={post.comments.length > 0}
+        />
 
         <ArchivePostNav current={post} allPosts={allPosts} wander={wander} />
 

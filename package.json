@@ -15,6 +15,7 @@
     "check:play-with-me": "bun run scripts/check-play-with-me.ts",
     "check:home": "bun run scripts/check-home.ts",
     "check:seo": "bun run scripts/check-seo.ts",
+    "check:comment-form": "bun run scripts/check-comment-form.ts",
     "migrate:wxr": "bun run scripts/migrate-from-wxr.ts"
   },
   "dependencies": {
