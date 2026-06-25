@@ -20,7 +20,7 @@ export function SiteFooter() {
               Inspiring the Sufi
             </p>
             <p className="mt-2 font-serif text-[0.95rem] italic text-ink-soft">
-              Fifty Names. Forty-nine songs.
+              Fifty Names, surrounded by songs.
             </p>
           </div>
 
